@@ -41,7 +41,7 @@ class MyHomePage extends StatelessWidget {
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          RaisedButton(
+          ElevatedButton(
             onPressed: () {
               Navigator.push(
                 context,
@@ -50,7 +50,7 @@ class MyHomePage extends StatelessWidget {
             },
             child: Text("Last Index Pattern"),
           ),
-          RaisedButton(
+          ElevatedButton(
             onPressed: () {
               Navigator.push(
                 context,
@@ -59,7 +59,7 @@ class MyHomePage extends StatelessWidget {
             },
             child: Text("Scroll Position Pattern"),
           ),
-          RaisedButton(
+          ElevatedButton(
             onPressed: () {
               Navigator.push(
                 context,
